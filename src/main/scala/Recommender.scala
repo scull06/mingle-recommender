@@ -12,6 +12,8 @@ object Recommender {
     Rating(fields(0).toInt, fields(1).toInt, fields(2).toFloat, fields(3).toLong)
   }
 
+
+
   def main(args: Array[String]) {
 
     val spark = SparkSession.builder.appName("Simple Application").getOrCreate()
